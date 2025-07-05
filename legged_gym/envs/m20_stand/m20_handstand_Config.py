@@ -3,7 +3,7 @@ from legged_gym.envs.base.legged_robot_config import LeggedRobotCfg, LeggedRobot
 class M20HandstandCfg( LeggedRobotCfg ):
 
     class env:
-        num_envs = 8
+        num_envs = 4096
         num_observations = 56 # sin cos command + 45
         num_privileged_obs = 59 # if not None a priviledge_obs_buf will be returned by step() (critic obs for assymetric training). None is returned otherwise 
         num_actions = 16
@@ -13,7 +13,7 @@ class M20HandstandCfg( LeggedRobotCfg ):
         test = False
 
     class terrain:
-        mesh_type = 'trimesh' # "heightfield" # none, plane, heightfield or trimesh
+        mesh_type = 'plane' # "heightfield" # none, plane, heightfield or trimesh
         horizontal_scale = 0.1 # [m]
         vertical_scale = 0.005 # [m]
         border_size = 25 # [m]
