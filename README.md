@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  🎮🚪 <strong>基于Unitree GO2 GYM --YuSongmin(https://github.com/yusongmin1/My_unitree_go2_gym),加入了deeprobotics的lite3和m20支持</strong> 🚪🎮
+  🎮🚪 <strong>基于Unitree GO2 GYM --YuSongmin(https://github.com/yusongmin1/My_unitree_go2_gym) ,加入了deeprobotics的lite3和m20支持</strong> 🚪🎮
 </p>
 S
 ---
