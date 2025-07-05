@@ -15,8 +15,7 @@ from .lite3_jump.lite3_jump_config import Lite3JUMPCfg, Lite3JUMPPPO
 from .lite3_jump.lite3_jump_robot import Lite3Jump
 from .m20_stand.m20_handstand_Config import M20HandstandCfg, M20HandstandCfgPPO
 from .m20_stand.m20_handstand import M20stand
-from .m20_jump.m20_jump_config import M20JUMPCfg, M20JUMPPPO
-from .m20_jump.m20_jump_robot import M20Jump
+
 
 
 
@@ -26,5 +25,5 @@ task_registry.register( "go2_handstand", Go2_stand, GO2Cfg_Handstand(), GO2CfgPP
 task_registry.register( "lite_hs", Lite3_stand, LITECfg_Handstand(), LITECfgPPO_Handstand())
 task_registry.register( "lite_jump", Lite3Jump, Lite3JUMPCfg(), Lite3JUMPPPO())
 task_registry.register( "m20_hs", M20stand, M20HandstandCfg(), M20HandstandCfgPPO())
-task_registry.register( "m20_jump", M20Jump, M20JUMPCfg(), M20JUMPPPO())
+
 # print("注册的任务:  ",task_registry.task_classes)
